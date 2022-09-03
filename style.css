@@ -1,1 +1,47 @@
-
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.diamond
+{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 160px;
+}
+span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #999;
+    transform: skew(-30deg);
+}
+span:nth-child(2)
+{
+    position: absolute;
+    top: ;
+    left: ;
+    display: block;
+    width: ;
+    height: ;
+    background: #666;
+}
+span:nth-child(3)
+{
+    position: absolute;
+    top: ;
+    right: ;
+    display: block;
+    width: ;
+    height: ;
+    background: ;
+    transform: skew(30deg);
+    z-index: 2;
+}
